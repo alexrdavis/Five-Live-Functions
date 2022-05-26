@@ -52,3 +52,9 @@ function welcomeMessage(firstName, lastName) {
   return "Welcome " + fullName(firstName, lastName) + " to the group."
 }
 console.log(welcomeMessage("Alex", "Davis"))
+
+// Function that takes a number and power, raises the number to the power
+function raiseNumber(number, power) {
+  return number ** power
+}
+console.log(raiseNumber(3,2))
