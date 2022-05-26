@@ -46,3 +46,9 @@ function addAndRaiseToSecondPower(firstNum, secondNum) {
   return addNums(firstNum, secondNum) ** 2;
 }
 console.log(addAndRaiseToSecondPower(2,3))
+
+// Function that gives a welcome message along with the full name of the person, calls on fullName function
+function welcomeMessage(firstName, lastName) {
+  return "Welcome " + fullName(firstName, lastName) + " to the group."
+}
+console.log(welcomeMessage("Alex", "Davis"))
